@@ -10,6 +10,21 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require css/style
+ *= require css/custom
  *= require_tree .
  *= require_self
+
+ *= require third-party/bootstrap/css/bootstrap.min
+ *= require third-party/font-awesome/css/font-awesome.min
+ *= require third-party/et-line/css/style
+ *= require third-party/elegant-icons/css/style
+ *= require third-party/pe-icon-7-stroke/css/pe-icon-7-stroke
+ *= require third-party/pe-icon-7-stroke/css/helper
+ *= require third-party/nivo-lightbox/css/nivo-lightbox
+ *= require third-party/nivo-lightbox/themes/default/default
+ *= require third-party/animate/css/animate
+ *= require third-party/owl/css/owl.carousel
+ *= require third-party/owl/css/owl.theme
+ *= require third-party/form-validation/css/formValidation.min
  */
